@@ -1,3 +1,11 @@
 name: bosch_apis
 build:
   cmake: .
+blobs:
+  - path: blobs/BHI260AP.fw
+    sha256: 318def511fd8eb762bf1e61cf02cfd6ecac70f8627d3bacfa7d24a1641f9e915
+    type: img
+    version: '1.6.0'
+    license-path: zephyr/blobs/license.md
+    url: https://github.com/boschsensortec/BHI2xy_SensorAPI/raw/refs/tags/v1.6.0/firmware/bhi260ap/BHI260AP.fw
+    description: "Sample firmware file for BHI260AP smart sensor, that allows basic usage of the sensor"
