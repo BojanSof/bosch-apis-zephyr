@@ -222,27 +222,6 @@ void bhi360_parse_oc(const struct bhi360_fifo_parse_data_info *callback_info, vo
 void bhi360_parse_ec(const struct bhi360_fifo_parse_data_info *callback_info, void *callback_ref);
 
 /**
-* @brief Function to set down sampling flag
-* @param[in] sen_id : Virtual sensor ID
-* @param[in] enable : Down sampling value
-*/
-void bhi360_set_downsampling_flag(uint8_t sen_id, bool enable);
-
-/**
-* @brief Function to get down sampling flag
-* @param[in] sen_id  : Virtual sensor ID
-* @return Down sampling value
-*/
-bool bhi360_get_downsampling_flag(uint8_t sen_id);
-
-/**
-* @brief Function to set down sampling ratio
-* @param[in] sen_id : Virtual sensor ID
-* @param[in] enable : Down sampling ratio
-*/
-void bhi360_set_downsampling_odr(uint8_t sen_id, int16_t odr);
-
-/**
  * @brief Function to parse FIFO frame data into temperature
  * @param[in] data          : Reference to the data buffer storing data from the FIFO
  * @param[out] temperature  : Reference to the data buffer to store temperature in degree C
