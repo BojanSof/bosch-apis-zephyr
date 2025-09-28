@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config ZEPHYR_BOSCH_APIS_MODULE
+  bool
+
+config BHI2XY_API_ENABLE
+  bool
+  help
+    Enable BHI2XY smart sensor API
+
+config BHI360_API_ENABLE
+  bool
+  help
+    Enable BHI360 smart sensor API

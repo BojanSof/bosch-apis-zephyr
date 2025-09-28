@@ -1,2 +1,2 @@
-add_subdirectory(bhi2xy)
-add_subdirectory(bhi360)
+add_subdirectory_ifdef(CONFIG_BHI2XY_API_ENABLE bhi2xy)
+add_subdirectory_ifdef(CONFIG_BHI360_API_ENABLE bhi360)
