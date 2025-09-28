@@ -1,6 +1,7 @@
 name: bosch_apis
 build:
   cmake: .
+  kconfig: Kconfig.bosch
 blobs:
   - path: blobs/BHI260AP.fw
     sha256: 318def511fd8eb762bf1e61cf02cfd6ecac70f8627d3bacfa7d24a1641f9e915
