@@ -1,0 +1,13 @@
+ zephyr_library()
+ zephyr_include_directories(
+   .
+ )
+ zephyr_library_sources(
+   bhy2.c
+   bhy2_bsec.c
+   bhy2_head_tracker.c
+   bhy2_hif.c
+   bhy2_klio.c
+   bhy2_parse.c
+   bhy2_swim.c
+ )
